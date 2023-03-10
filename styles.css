@@ -13,16 +13,20 @@ html{
 *{
     box-sizing: border-box;
 }
-h1{
-    font-weight: 800;
+header h1{
     text-align: center;
     margin: -4px 0px; 
     letter-spacing: 0.15px;
 }
 p{
     margin: 0px;
+    display: flex;
+    justify-content: space-between;
 }
 .divider {
     border-bottom: 1px solid #888989;
     margin: 2px 0px;
+}
+.bold {
+    font-weight: 800;
 }
